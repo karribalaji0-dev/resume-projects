@@ -1,23 +1,19 @@
 # Portfolio Projects
 
-Two small projects built to practice web development and Python data analysis. All records in the demos are fictional.
+Four beginner-friendly projects demonstrating web development, databases, and Python data tools. Demo data is fictional.
 
-## 1. ApplyTrack — job application tracker
+## Projects
 
-A responsive browser app for adding, editing, searching, filtering, and sorting job applications. It tracks status and follow-up dates, shows summary counts, and supports JSON backup and restore.
+- **ApplyTrack** — browser-based job application tracker with editable records, filters, reminders, summary counts, and JSON backup. [Source](ApplyTrack.html) · [Guide](ApplyTrack-README.md)
+- **SalesLens** — Streamlit and pandas sales dashboard with filters, metrics, charts, and CSV export. [Project folder](SalesLens/) · [Guide](SalesLens/README.md)
+- **HelpDesk Lite** — Flask and SQLite support-ticket website with create/edit/delete, search, priority, and status tracking.
+- **CSVDoctor** — Python command-line CSV cleaner that normalizes data and writes a quality report.
 
-- [Open the app source](ApplyTrack.html)
-- [ApplyTrack guide and resume bullets](ApplyTrack-README.md)
-- Open `ApplyTrack.html` in a modern browser to use it. Data stays in local browser storage and does not sync across devices.
+[Download the complete project bundle](ResumeProjects-Expanded.zip) for HelpDesk Lite, CSVDoctor, and all other project files. Setup guides and sample resume bullets are included.
 
-## 2. SalesLens — sales analytics dashboard
+## Run SalesLens
 
-A Streamlit and pandas dashboard with date, region, and category filters, sales metrics, charts, and filtered CSV download. Revenue is calculated after discount; this sample does not include costs and does not report profit.
-
-- [SalesLens folder](SalesLens/)
-- [SalesLens setup guide and resume bullets](SalesLens/README.md)
-
-To run SalesLens, install Python 3.10 or newer, open a terminal in `SalesLens`, then run:
+Install Python 3.10 or newer. In a terminal inside `SalesLens`, run:
 
 ```text
 python -m venv .venv
@@ -27,6 +23,4 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-## Resume wording
-
-The project-specific READMEs include sample bullets. Personalize the projects and make sure you can explain the code before adding them to a resume.
+The ApplyTrack data stays in that browser on that device. HelpDesk is a local learning demo with no login; do not put real customer details in it. Check each project README for full setup steps. Personalize each project and be ready to explain the code before listing it on a resume.
